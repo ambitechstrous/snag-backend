@@ -1,0 +1,19 @@
+{
+	"name": "snag_node",
+	"main": "server.js",
+	"scripts": {
+		"build": "npm install",
+		"start": "node -r esm server.js"
+	},
+	"dependencies": {
+		"esm": "^3.2.25",
+		"express": "^4.17.1",
+		"mongoose": "^5.9.12",
+		"util": "^0.12.3"
+	},
+	"engines": {
+		"node": "12.12.0",
+		"npm": "6.11.3"
+	},
+	"private": true
+}
